@@ -5,6 +5,7 @@ import { UpdateCatDto } from './dto/update-cat.dto';
 @Injectable()
 export class CatsService {
   create(createCatDto: CreateCatDto) {
+    console.log(createCatDto)
     return 'This action adds a new cat';
   }
 
